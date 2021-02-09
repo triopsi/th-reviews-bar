@@ -28,7 +28,8 @@ ul.thrb-review-panel li:hover{
     padding: 20px 30px;
     border: 1px solid #eaeaea;
     border-radius: 3px;
-    transition: all ease 0.55s;
+    transition: all ease 1s;
+    background-color: white;
 }
 
 .thrb-box-single-review:hover {
