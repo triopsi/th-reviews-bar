@@ -36,8 +36,8 @@ function register_thrb_type() {
   	$labels = array(
 		'name'               => __( 'TH Review', 'thrb' ),
 		'singular_name'      => __( 'Review', 'thrb' ),
-		'menu_name'          => __( 'TH Review', 'thrb' ),
-		'name_admin_bar'     => __( 'TH Review', 'thrb' ),
+		'menu_name'          => __( 'TH Reviews', 'thrb' ),
+		'name_admin_bar'     => __( 'TH Reviews', 'thrb' ),
 		'add_new'            => __( 'Add New Review', 'thrb' ),
 		'add_new_item'       => __( 'Add New Review', 'thrb' ),
 		'new_item'           => __( 'New Review', 'thrb' ),
