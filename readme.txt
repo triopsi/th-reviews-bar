@@ -59,7 +59,7 @@ Nothing yet.
 Nothing.
 
 == License ==
-* MIT lightslider jquery plugin
+* CC BY 4.0 License - Font Awesome v5.15.2
 
 == Donations ==
 
