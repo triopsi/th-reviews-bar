@@ -58,6 +58,7 @@ img.thrb-image{
     width: 100%;
     max-width: 200px;
     max-height: 200px;
+    margin: 0 auto;
 }
 
 .thrb-box-image{
