@@ -2,7 +2,7 @@
 /**
 * Plugin Name: TH Reviews Bar
 * Plugin URI: https://www.wiki.profoxi.de
-* Description: A simple review star plugin. Create reviews on backend and copy-paste the shortcode everywhere in your post or site. Included: Widget
+* Description: A simple reviews plugin. Create and display reviews on your site or posts. Includes: Widget
 * Version: 1.0.0
 * Author: triopsi
 * Author URI: http://wiki.profoxi.de

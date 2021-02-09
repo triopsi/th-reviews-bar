@@ -96,7 +96,7 @@ function thrb_help_page() { ?>
 													<span class="thrb-shortcode-preview">showdescription="true"</span> – <?php _e('Show the descriptions of review', 'thrb'); ?> <br />
 													<span class="thrb-shortcode-preview">limit="4"</span> – <?php _e('Number of reviews to show', 'thrb'); ?>. <?php _e('-1 to show all reviews.', 'thrb'); ?> <br />
 													<span class="thrb-shortcode-preview">before=""</span> – <?php _e('HTML or text before the random review', 'thrb'); ?> <br />
-													<span class="thrb-shortcode-preview">after=""</span> – <?php _e('HTML or text after the random review ', 'thrb'); ?> <br /><br />
+													<span class="thrb-shortcode-preview">after=""</span> – <?php _e('HTML or text after the random review', 'thrb'); ?> <br /><br />
 													<?php _e('e.g.', 'thrb'); ?>
 													<span class="thrb-shortcode-preview">[thrb limit="-1" showtitle="false" imagecurved="true" showstars="false"]</span>
 												

@@ -9,21 +9,21 @@ Stable tag: 1.0.0
 License: GPLv3
 License URI: https://www.gnu.org/licenses/gpl-3.0
  
-A simple review star plugin. Create reviews backend and copy-paste the shortcode everywhere in your post or site. 
+A simple reviews plugin. Create and display reviews on your site or posts.
  
 == Description ==
 
 The "TH Reviews Bar" plugin is a very simple way, to show your reviews on your site or blog post. It's have a responsive design
-and is very easys to use it. Create new reviews on the admin panel of wordpress an copy paste the shortcode your post or site. 
+and is very easys to use it. Create new reviews on the admin panel of wordpress and copy paste the shortcode your post or site. 
 Or use the TH Reviews Bar Widget for a list of reviews.
 
 = Create features =
  
-*   Create and manage reviews
-*   Add Shortcodes in your post or sites 
-*   Responsives design
-*   Use the Widget to add the complete panel in your site or sidebar.
-*   ratings with stars
+- Create and manage reviews
+- Add Shortcodes in your post or sites 
+- Responsives design
+- Use the Widget to add the complete panel in your site or sidebar.
+- 1-5 star rating
 
 = Bugs, technical hints or contribute =
 
