@@ -1,0 +1,125 @@
+/**
+* Front Editor CSS
+**/
+
+/**
+* Review List
+**/
+ul.thrb-review-panel,
+ul.thrb-review-panel li{
+    list-style: none;
+}
+
+ul.thrb-review-panel li {
+    padding: 15px;
+    float: left;
+    box-sizing: border-box;
+    width: 33%;
+}
+ul.thrb-review-panel li:hover{
+    opacity: 0.7;
+    -webkit-transition: opacity 0.5s;
+    transition: opacity 0.5s;
+}
+
+.thrb-box-single-review{
+    display: inline-block;
+    width: 100%;
+    padding: 20px 30px;
+    border: 1px solid #eaeaea;
+    border-radius: 3px;
+    transition: all ease 0.55s;
+}
+
+.thrb-box-single-review:hover {
+    cursor: pointer;
+    border-bottom: 5px solid #237dd1;
+}
+
+
+h3.thrb-author-name{
+    text-align: center;
+    margin-top: 5px;
+}
+
+p.thrb-author-desc {
+    font-style: italic;
+    font-size:0.8em;
+    text-align: center;
+}
+
+h4.thrb-title{
+    text-align: center; 
+}
+
+img.thrb-image{
+    height: auto;
+    width: 100%;
+    max-width: 200px;
+    max-height: 200px;
+}
+
+.thrb-box-image{
+    margin: 0 auto;
+    text-align: center;
+}
+
+div.thrb-curvedimg{
+    border-radius: 50%; 
+    position: relative;
+    max-width: 200px;
+    max-height: 200px;
+    overflow: hidden;
+}
+
+
+/**
+* Star
+**/
+.thrb-star-rating{
+    overflow: hidden;
+    position: relative;
+    height: 1.5em;
+    line-height: 1.5;
+    width: 5.6em;
+    font-family: "Font Awesome 5 Free";
+    font-weight: 900;
+    display: block;
+    margin: 10px auto;
+    font-size: 1.5em;
+}
+
+
+.thrb-star-rating::before {
+    content: "\f005\f005\f005\f005\f005";
+    color: #b3b2b2;
+    float: left;
+    top: 0;
+    left: 0;
+    position: absolute;
+}
+
+.thrb-star-rating span {
+    overflow: hidden;
+    float: left;
+    top: 0;
+    left: 0;
+    position: absolute;
+    padding-top: 1.5em;
+}
+
+.thrb-star-rating span::before {
+    content: "\f005\f005\f005\f005\f005";
+    top: 0;
+    position: absolute;
+    left: 0;
+    color: orange;
+}
+
+
+/* Unter Tabletsgröße */
+@media (max-width: 991.98px) {
+    ul.thrb-review-panel li {
+        width: 100%;
+    }
+}
