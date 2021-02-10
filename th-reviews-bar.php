@@ -55,5 +55,5 @@ require_once('inc/thrb-widget.php');
  * @return void
  */
 function thrb_load_plugin_textdomain() {
-  load_plugin_textdomain( 'thrb', '', dirname( plugin_basename( __FILE__ ) ) . '/lang/' );
+  load_plugin_textdomain( 'thrb', "", 'th-reviews-bar/lang/' );
 }
