@@ -132,7 +132,7 @@ function thrb_get_random_review( $args, $id ){
         ob_start();
 
         //Get CSS
-        getCssOutput( $post_count, $border_color, $id );
+        thrb_getCssOutput( $post_count, $border_color, $id );
 
         //Output Buffer and Clen Buffer
         $o = ob_get_clean();
@@ -239,7 +239,7 @@ function thrb_getOutputReviewsList( $id, $thrb_query, $args ){
  * @param [type] $border_color
  * @return void
  */
-function getCssOutput( $post_count, $border_color, $id){
+function thrb_getCssOutput( $post_count, $border_color, $id){
 ?>
 <style>
         ul#thrb-review-panel-bar-<?php echo $id; ?> li {
