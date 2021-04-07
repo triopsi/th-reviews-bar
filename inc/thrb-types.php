@@ -19,6 +19,7 @@
  * along with thrb. If not, see https://www.gnu.org/licenses/gpl-3.0.
  *
  * @package thrb
+ * @version 1.0.0
  **/
 
 // Registers the teams post type.
@@ -34,7 +35,7 @@ add_action( 'init', 'thrb_register_image_size' );
  */
 function register_thrb_type() {
 
-// Defines labels.
+	// Defines labels.
 	$labels = array(
 		'name'               => __( 'TH Review', 'thrb' ),
 		'singular_name'      => __( 'Review', 'thrb' ),
@@ -79,8 +80,8 @@ add_filter( 'post_updated_messages', 'thrb_updated_messages' );
 /**
  * Update post message functions
  *
- * @param [type] $messages
- * @return void
+ * @param Array $messages
+ * @return Array AN array of messages
  */
 function thrb_updated_messages( $messages ) {
 	$post             = get_post();

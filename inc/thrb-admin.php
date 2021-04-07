@@ -19,6 +19,7 @@
  * along with thrb. If not, see https://www.gnu.org/licenses/gpl-3.0.
  *
  * @package thrb
+ * @version 1.0.0
  **/
 
 /**
@@ -57,22 +58,22 @@ function add_admin_thrb_style_js() {
 		wp_enqueue_media();
 
 		// JS for metaboxes.
-		wp_enqueue_script( 'logic-form', plugins_url( '../assets/js/logic-form.js', __FILE__ ) );
+		wp_enqueue_script( 'thrb-logic-form', plugins_url( '../assets/js/logic-form.js', __FILE__ ), array(), '1.0.0', true );
 
 		// Font Awesome.
-		wp_enqueue_style( 'font-awesome', 'https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.css', __FILE__ );
+		wp_enqueue_style( 'thrb-font-awesome', 'https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.css', array(), '1.0.0', 'all' );
 
 		// CSS for metaboxes.
-		wp_enqueue_style( 'thrb_admin_styles', plugins_url( '../assets/css/front-admin.css', __FILE__ ) );
+		wp_enqueue_style( 'thrb-admin-styles', plugins_url( '../assets/css/front-admin.css', __FILE__ ), array(), '1.0.0', 'all' );
 
 	} else {
 
-    // WP color picker Style and scripts.
+		// WP color picker Style and scripts.
 		wp_enqueue_style( 'wp-color-picker' );
-    wp_enqueue_script( 'wp-color-picker' );
+		wp_enqueue_script( 'wp-color-picker' );
 
 		// JS for metaboxes.
-		wp_enqueue_script( 'logic-form', plugins_url( '../assets/js/logic-form.js', __FILE__ ) );
+		wp_enqueue_script( 'thrb-admin-form', plugins_url( '../assets/js/admin-form.js', __FILE__ ), array(), '1.0.0', true );
 
 	}
 

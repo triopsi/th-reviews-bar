@@ -3,7 +3,7 @@
  * Plugin Name: TH Reviews Bar
  * Plugin URI: https://www.wiki.profoxi.de
  * Description: A simple reviews plugin. Create and display reviews on your site or posts. Includes: Widget
- * Version: 1.0.1
+ * Version: 1.0.2
  * Author: triopsi
  * Author URI: http://wiki.profoxi.de
  * Text Domain: thrb
@@ -29,7 +29,7 @@
 
 // Definie plugin version.
 if ( ! defined( 'thrb_VERSION' ) ) {
-	define( 'thrb_VERSION', '1.0.1' );
+	define( 'thrb_VERSION', '1.0.2' );
 }
 
 // Loads plugin's text domain.

@@ -26,8 +26,5 @@
                 return false;
             }
         });
-        $(function () {
-            $('.thrb-hover-color-field').wpColorPicker();
-        });
     });
 })(jQuery);
